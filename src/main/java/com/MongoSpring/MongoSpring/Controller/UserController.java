@@ -9,7 +9,7 @@ import org.springframework.http.HttpStatus;
 import java.util.Optional;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000") // Adjust for your frontend URL
+@CrossOrigin(origins = "http://localhost:3000")
 @RequestMapping("/api/auth")
 public class UserController {
 
