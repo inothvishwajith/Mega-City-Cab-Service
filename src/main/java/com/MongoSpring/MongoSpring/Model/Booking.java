@@ -21,4 +21,5 @@ public class Booking {
     private double totalPrice;
     private String cabId;
     private String cabName;
+    private boolean confirmed; // Added confirmation status
 }
